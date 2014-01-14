@@ -1,0 +1,7 @@
+<%= render 'form' %>
+<% @squeaks.each do |squeak| %>
+<%= squeak.created_at %>
+<%= squeak.user %>
+<%= squeak.body %>
+<% end %>
+

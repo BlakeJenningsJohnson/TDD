@@ -1,0 +1,19 @@
+<%= form_for @squeak do |squeak| %>
+  <% if @squeak.errors.any? %>
+    <div class= "error_messages">
+      <h2> Form is invalid </h2>
+      <ul>
+        <% for message in @squeak.errors.full_messages %>
+          <li><%= message %></li>
+          <% end %>
+        </ul>
+      </div>
+      <% end %>
+  <h1>Squeaky squeak</h1>
+    <%= squeak.label :user, "User:" %>
+    <%= squeak.text_field :user %>
+    <%= squeak.label :body, "Squeak:" %>
+    <%= squeak.text_field :body %>
+    <td id='report'><%=squeak.submit "POST" %>    
+  <% end %>
+

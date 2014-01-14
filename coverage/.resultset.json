@@ -1,0 +1,65 @@
+{
+  "RSpec": {
+    "coverage": {
+      "/Users/blakejohnson/ada/rails_project/squeaker/app/helpers/application_helper.rb": [
+        1,
+        null
+      ],
+      "/Users/blakejohnson/ada/rails_project/squeaker/app/helpers/squeaks_helper.rb": [
+        1,
+        null
+      ],
+      "/Users/blakejohnson/ada/rails_project/squeaker/app/controllers/squeaks_controller.rb": [
+        1,
+        1,
+        null,
+        1,
+        0,
+        null,
+        null,
+        1,
+        0,
+        0,
+        0,
+        null,
+        0,
+        null,
+        null,
+        null,
+        1,
+        null,
+        null,
+        1,
+        2,
+        2,
+        null,
+        null,
+        1,
+        null,
+        1,
+        0,
+        null,
+        null,
+        1,
+        0,
+        null,
+        null,
+        null
+      ],
+      "/Users/blakejohnson/ada/rails_project/squeaker/app/controllers/application_controller.rb": [
+        1,
+        null,
+        null,
+        1,
+        null
+      ],
+      "/Users/blakejohnson/ada/rails_project/squeaker/app/models/squeak.rb": [
+        1,
+        1,
+        1,
+        null
+      ]
+    },
+    "timestamp": 1389669191
+  }
+}
