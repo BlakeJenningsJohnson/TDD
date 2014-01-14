@@ -10,7 +10,7 @@ class SqueaksController < ApplicationController
     if @squeak.save
       redirect_to squeaks_path(@squeak)
     else
-      redirect_to squeaks_path(@squeak)
+      render :index
     end
   end
 
@@ -19,7 +19,7 @@ class SqueaksController < ApplicationController
 
   def index
     @squeak = Squeak.new
-    @squeaks = Squeak.order('created_at DESC')
+    @squeaks = Squeak.order('created_at ASC')
   end
 
   private

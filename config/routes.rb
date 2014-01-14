@@ -5,6 +5,7 @@ Squeaker::Application.routes.draw do
   # You can have the root of your site routed with "root"
   get '/squeaks' => 'squeaks#index', as: :squeaks
   resources :squeaks
+  root 'squeaks#index'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'

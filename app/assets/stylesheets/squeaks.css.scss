@@ -1,3 +1,22 @@
 // Place all the styles related to the squeaks controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+body {
+  text-align: center;
+}
+
+form {
+  padding-bottom: 20px;
+}
+
+table {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+table td {
+  background-color: pink;
+  height: 25px;
+  width: 250px;
+}

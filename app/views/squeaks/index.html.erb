@@ -1,7 +1,23 @@
 <%= render 'form' %>
-<% @squeaks.each do |squeak| %>
-<%= squeak.created_at %>
-<%= squeak.user %>
-<%= squeak.body %>
-<% end %>
 
+  <table>
+    <thead>
+      <tr>
+        <th> SQUEAK </th>
+        <th> SQUEAKED BY </th>
+        <th> AT </th>
+        <th> </th>
+        <th></th>
+      </tr>
+    </thead>
+    <tbody> 
+      <% @squeaks.each do |squeak| %>
+        <tr>
+          <td id='squeak'><%= squeak.body %></td>
+          <td id='user'><%= squeak.user %></td>
+          <td id='time'><%= squeak.created_at.strftime("%b %e, %l:%M %p")%></td>
+          </td>
+        </tr>
+      <% end %>
+    </tbody>
+  </table>
